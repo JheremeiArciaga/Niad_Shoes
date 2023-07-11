@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Niad</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+    integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body,
+    html {
+      height: 100%;
+      width: 100%;
+
+
+    }
+
+    /* #mainNav {s
+      background-color: rgb(22, 22, 22);
+      color: white;
+
+    }
+
+    #minimenu {
+      float: right;
+      margin-right: 60px;
+    } */
+
+    .htop div,
+    #about .container,
+    #contact .container {
+      background-color: rgb(0, 0, 0) transparent;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      margin: 0 auto;
+      color: white;
+      border-radius: 15px;
+    }
+
+    #sidemenu {
+      padding: 4em 0;
+    }
+
+    #sidemenu .container {
+      padding: 2em;
+    }
+
+    .htop {
+      position: relative;
+      top: 0;
+
+      width: 100%;
+      text-align: center;
+      min-height: auto;
+      background-image: url(https://c.static-nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1349,c_limit/tpqid8vgfey6m4ke86te/123-joyride-cdp-apla-xa-xp.jpg);
+      /*background-image: url(http://placehold.it/1600x700);*/
+      background-size: cover;
+      color: white;
+      font-size: 1em;
+      padding: 10em;
+    }
+
+
+    #about {
+      background-image: url(https://www.gannett-cdn.com/presto/2019/07/25/USAT/42737008-b0e5-447d-bc3e-1d84acd25274-nike-joyride-cushioning-9_hd_1600.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp);
+      /*background-image: url(http://placehold.it/1600x700);*/
+      background-size: cover;
+      background-position: center;
+    }
+
+    #contact {
+      background: rgb(34, 193, 195);
+      background: linear-gradient(98deg,
+          rgba(34, 193, 195, 1) 0%,
+          rgba(209, 45, 253, 1) 100%);
+      /*background-image: url(http://placehold.it/1600x700);*/
+      background-size: cover;
+    }
+
+
+    .card {
+      overflow: hidden;
+    }
+
+    .img-fluid {
+      margin-bottom: 1rem;
+    }
+
+    .img-fluid:hover {
+      animation: zoom 0.5s forwards;
+      transform: scale(1);
+
+    }
+
+    @keyframes zoom {
+      0% {
+        transform: scale(1);
+      }
+
+      100% {
+        transform: scale(1.1);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .htop {
+        min-height: 100%;
+      }
+
+      .msection {
+        min-height: 100%;
+        padding: 6em 0;
+      }
+    }
+  </style>
+</head>
+
+<body data-target="#minimenu">
+
+  <!-- content -->
+  <header class="header">
+    <a href="#" class="logo">Niad</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#men">Men</a>
+      <a href="#female">Women</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <form class="search-container">
+      <input type="text" id="search-bar" placeholder="Search">
+      <a href="#"><img class="search-icon"
+          src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+    </form>
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <section class="htop" id="home">
+    <div class="scrol">
+      <h1 style="font-family: 'Tilt Prism', cursive; font-size: 3.5rem; font-weight: 500;">Kicks</h1>
+      <hr />
+      <p>
+        Footwear designers create new designs and sample patterns for men's, women's and children's footwear. </p>
+      <button type="button" class="btn btn-primary btn-lg mt-1" data-toggle="modal" data-target="#modal1">
+        Best Deals
+      </button>
+    </div>
+  </section>
+
+  <section id="about" class="msection">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+          <p>
+            Lorem ipsum adipiscing elit. Aenean commodo ligula eget Cciis
+            natoque penatibus et magnis dis p
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, tetuer adipiscing elit. Aenean commodo
+            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+            magnis dis p
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consecdipiscing elit. Aenean commt
+            dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 text-xs-center">
+          <h3>One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="col-md-3 text-xs-center">
+          <h3>One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="col-md-3 text-xs-center">
+          <h3>One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="col-md-3 text-xs-center">
+          <h3>One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneula
+            eget dolor. Aenean massa. Cum sociis natoque penaagnis dis p
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            coigula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+            magnis dis ppsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, quaerat?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="products" class="msection">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-4 text-xs-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Nike zoom</h3>
+            </div>
+            <img
+              src="https://static.dezeen.com/uploads/2019/07/nike-joyride-run-flyknit-design_dezeen_2364_sq-3-300x300.gif"
+              class="img-fluid" />
+            <div class="card-block">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet
+              </p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-xs-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Jordan Delta 3 Low</h3>
+            </div>
+            <img
+              src="https://static.dezeen.com/uploads/2019/07/nike-joyride-run-flyknit-design_dezeen_2364_sq-3-300x300.gif"
+              class="img-fluid" />
+            <div class="card-block">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet
+              </p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-xs-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">Air Jordan 1 Mid SE</h3>
+            </div>
+            <img
+              src="https://static.dezeen.com/uploads/2019/07/nike-joyride-run-flyknit-design_dezeen_2364_sq-3-300x300.gif"
+              class="img-fluid" />
+            <div class="card-block">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet
+              </p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-xs-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">kobe 4</h3>
+            </div>
+            <img
+              src="https://static.dezeen.com/uploads/2019/07/nike-joyride-run-flyknit-design_dezeen_2364_sq-3-300x300.gif"
+              class="img-fluid" />
+            <div class="card-block">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet
+              </p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-xs-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">kobe 5</h3>
+            </div>
+            <img
+              src="https://static.dezeen.com/uploads/2019/07/nike-joyride-run-flyknit-design_dezeen_2364_sq-3-300x300.gif"
+              class="img-fluid" />
+            <div class="card-block">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet
+              </p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-xs-center">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title">kobe 6</h3>
+            </div>
+            <img
+              src="https://static.dezeen.com/uploads/2019/07/nike-joyride-run-flyknit-design_dezeen_2364_sq-3-300x300.gif"
+              class="img-fluid" />
+            <div class="card-block">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet
+              </p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="more">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>One</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          </p>
+          <p>
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+            sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+            vel, aliquet nec, vulputate eget, arcu.
+          </p>
+          <p>
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+            Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+            eleifend tellus.
+          </p>
+          <p>
+            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+            enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+            tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
+            rutrum.
+          </p>
+          <p>
+            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+            ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+            tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+            sit amet adipiscing sem neque sed ipsum.
+          </p>
+          <p>
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+            libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci
+            eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit
+            amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget
+            bibendum sodales, augue velit cursus nunc,
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <aside id="sidemenu">
+    <div class="container text-xs-center bg-success text-white">
+      <h2>Add your email to the list to get the best deals first.</h2>
+      <button class="btn btn-outline-primary mt-2" data-toggle="modal" data-target="#modal2">
+        More Info
+      </button>
+    </div>
+  </aside>
+  <section id="contact" class="msection ">
+    <div class="con">
+      <h5 style="font-family: 'Caveat', cursive;Font-weight:400; color:#ffffff; font-size:18px;line-height:0; ">
+        Contact us</h5>
+      <h5 data-aos="fade-top" style=" font-size:28px; margin:0 0 28px 0;">Get In Touch</h5>
+    </div>
+    <div class="container">
+      <br>
+      <form>
+        <fieldset style="margin-top:20px;">
+          <div class="form-group">
+            <label for="uname" class="control-label col-md-4">Username</label>
+            <div class="col-md-8">
+              <input name="uname" id="uname" placeholder="Please Enter Your Name" class="form-control" type="text"
+                required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="uemail" class="control-label col-md-4">Email</label>
+            <div class="col-md-8">
+              <input name="uemail" id="uemail" placeholder="Your Email Address" class="form-control" type="email"
+                required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="umessage" class="control-label col-md-4" required>Message</label>
+            <div class="col-md-8">
+              <textarea class="form-control" rows="10" name="umessage" id="umessage" placeholder="Your Message"
+                required></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-md-4"></label>
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-primary" style="margin-top:20px;">
+                send message
+              </button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+  <footer class="text-xs-center footerA bg-inverse text-white font-italic ">
+    <div class="social">
+      <a href="https://web.facebook.com/gocavite" target="_blank"><img src="logo/facebook.png" alt="facebook" /></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="logo/instagram.png" alt="Instagram" /></a>
+      <a href="https://twitter.com/i/flow/login" target="_blank"><img src="logo/twitter.png" alt="twitter" /></a>
+    </div>
+    <div class="foot">© 2023 Nike, Inc. All Rights Reserved</div>
+  </footer>
+  <!-- Modal -->
+  <div id="modal1" class="modal" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">Best Deal OFFER ever</div>
+        <div class="modal-body">Don't miss out buy now and save big</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">
+            close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal2" class="modal" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">Best Deal OFFER ever</div>
+        <div class="modal-body">Don't miss out buy now and save big</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">
+            close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+    integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"
+    integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $(".nav-link").on("click", function (e) {
+        e.preventDefault();
+        var hash = this.hash;
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          1000,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      });
+    });
+  </script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
