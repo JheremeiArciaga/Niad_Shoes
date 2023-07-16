@@ -184,6 +184,13 @@ input#search-bar{
   height: 70px;
   right: 3.7rem;
 }
+.msection{
+  margin: 2rem 0;
+  padding: 1rem;
+}
+.msection1{
+  padding: 1rem;
+}
 @media (min-width: 1200px) { 
   .search-container{
     margin-right: -9rem;
