@@ -184,6 +184,26 @@ input#search-bar{
   height: 70px;
   right: 3.7rem;
 }
+@media (min-width: 1200px) { 
+  .search-container{
+    margin-right: -9rem;
+ }
+ .search-icon{
+  right: 4rem;
+}
+.navbar{
+  margin-left: 2rem;
+  padding-right:0 ;
+}
+.navbar a{
+  margin-right: 1rem;
+
+}
+.logo{
+  margin-right: 2rem;
+}
+
+}
 @media (max-width: 1200px) { 
   .search-container{
     margin-right: -9rem;
